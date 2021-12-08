@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+  api:
+    build: ./
+    restart: always
+    container_name: production-api-verzelmotors-container
+    network_mode: host
+    ports:
+      - ${SERVER_PORT}:${SERVER_PORT}
+    volumes:
+      - ./dist:/usr/src/app/dist
+      - ./.volumes/logs:/root/.npm/_logs
