@@ -21,24 +21,25 @@
 
 - `nodejs`
 - `postgres`
+- `docker`
 
 ## Como executar:
 
-> antes de executar, certifique-se de atualizar o arquivo `.env` na raiz do projeto com as variaveis do seu ambiente e atualize o banco de dados com as migrações com o comando: `yarn migration:run`. OBS: Se ao executar o comando e o mesmo apresentar erro, rode o comando: `yarn`.
+> Antes de executar, certifique-se de atualizar o arquivo `.env` na raiz do projeto com as variaveis do seu ambiente e atualize o banco de dados com as migrações com o comando: `yarn migration:run`. OBS: Se ao executar o comando e o mesmo apresentar erro, rode o comando: `yarn`.
 >
 > [(mais informações sobre as migrações aqui)](#migrações)
 >
 > As migrações iniciais criam um usuario administrador e um usuário genérico.
 >
 > ```json
-> ({
+> {
 >   "email": "admin@email.com",
 >   "password": "admin"
 > },
 > {
 >   "email": "user@email.com",
 >   "password": "user"
-> })
+> }
 > ```
 
 ```sh
