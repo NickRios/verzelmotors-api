@@ -29,7 +29,7 @@
 >
 > [(mais informações sobre as migrações aqui)](#migrações)
 >
-> As migrações iniciais criam um usuario administrador e um usuário genérico.
+> As migrações iniciais criando um usuario administrador e um usuário genérico.
 >
 > ```json
 > {
