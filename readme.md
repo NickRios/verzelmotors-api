@@ -1,5 +1,8 @@
 <br />
 <p align="center">
+  <a href="https://github.com/NickRios/verzelmotors-api">
+    <img src="./assets/Logo.png" alt="Logo" height="300">
+  </a>
 
   <h3 align="center">Verzel Motors API</h3>
 
