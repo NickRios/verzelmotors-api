@@ -48,7 +48,7 @@
 ```sh
 git clone git@github.com:NickRios/verzelmotors-api.git
 
-cd node-crud
+cd verzelmotors-api
 
 yarn install
 
